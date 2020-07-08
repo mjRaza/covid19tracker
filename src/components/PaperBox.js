@@ -40,7 +40,6 @@ const useStyles = makeStyles((theme) => ({
     color: "blue",
   },
 }));
-
 export default function NestedGrid({ globalData, title }) {
   console.log(globalData);
   const classes = useStyles();
